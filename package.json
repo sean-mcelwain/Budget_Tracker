@@ -5,20 +5,20 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
     "lite-server": "lite-server",
     "build": "webpack --watch",
     "webpack": "webpack",
-    "prestart": "npm run webpack"
+    "prestart": "npm run webpack",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "https://github.com/sean-mcelwain/Budget_Tracker.git"
   },
-  "author": "",
+  "author": "SM",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://github.com/sean-mcelwain/Budget_Tracker.git"
   },
   "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
   "dependencies": {
