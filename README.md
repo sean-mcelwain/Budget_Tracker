@@ -11,7 +11,7 @@ This progressive web app allows the user to input deposits and withdrawals into 
  5. [ Screenshot. ](#screenshot) 
 
 ## Heroku Link
-URL: (TO BE ADDED WHEN PROJECT DEPLOYED)
+URL: https://budget-app-sm.herokuapp.com/
 
  <a name='installation'></a>
  ## Installation 
