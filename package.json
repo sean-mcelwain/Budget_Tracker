@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/sean-mcelwain/Budget_Tracker.git"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://github.com/sean-mcelwain/Budget_Tracker.git#readme",
   "dependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
