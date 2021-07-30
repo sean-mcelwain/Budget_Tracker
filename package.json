@@ -9,15 +9,9 @@
   "scripts": {
     "dev": "webpack-dev-server --mode development --open",
     "start": "node server.js",
-    "heroku-postbuild": "webpack -p",
     "build": "ng build",
     "heroku-postbuild": "ng build --prod" 
   },
-
-  "scripts": {
-    "start": "node index.js",
-// this will be run on Heroku
-  }
   
   "repository": {
     "type": "git",
