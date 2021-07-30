@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "16.0.0"
+  },
   "scripts": {
-    "dev": "webpack-dev-server --mode development --open",
-    "start": "node server.js",
-    "heroku-postbuild": "webpack -p"
+    "start": "node index.js",
+    "build": "ng build",
+    "heroku-postbuild": "ng build --prod" // this will be run on Heroku
   },
   "repository": {
     "type": "git",
