@@ -21,7 +21,7 @@ Alternatively, this app can be used via the deployment on Heroku without install
 
  <a name='usage'></a>
  ## Usage 
-Once the app is installed and run, the user can interact with the app via the web browser.  Or the app is avaiaable via the Heroku deployment. 
+Once the app is installed and run, the user can interact with the app via the web browser.  Or the app is available via the Heroku deployment. 
 
 <a name='questions'></a>
  ## Questions 
