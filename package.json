@@ -7,10 +7,18 @@
     "node": "16.0.0"
   },
   "scripts": {
-    "start": "node index.js",
+    "dev": "webpack-dev-server --mode development --open",
+    "start": "node server.js",
+    "heroku-postbuild": "webpack -p",
     "build": "ng build",
-    "heroku-postbuild": "ng build --prod" // this will be run on Heroku
+    "heroku-postbuild": "ng build --prod" 
   },
+
+  "scripts": {
+    "start": "node index.js",
+// this will be run on Heroku
+  }
+  
   "repository": {
     "type": "git",
     "url": "https://github.com/sean-mcelwain/Budget_Tracker.git"
